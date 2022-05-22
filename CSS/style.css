@@ -1,0 +1,64 @@
+body{
+background-color: #aed7eb;
+}
+form {
+  margin-top: 10px;
+  margin-left: 300px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+  background-color: white; 
+}
+input:hover {
+    border: 1px solid rgb(89, 146, 186);
+    border-radius: 1px;
+}
+input:focus{
+    outline: none;
+    box-shadow: 0px 0px 5px #61C5FA;
+    border-color: #22a5e6;
+}
+.required:after {
+  content: " *";
+  color: red;
+}
+
+#streetaddress{
+    width: 100%;
+}
+
+#streetaddressline2{
+    width: 100%;
+}
+input[type="text"] {
+  width: 40%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+} 
+.right{
+    padding-left: 30px;
+
+}
+table, th, td {
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+  }
+
+ /* input[id="text"] {
+    border: none;
+    background-color: transparent;
+    resize: none;
+    outline: none;
+    box-sizing: border-box;
+  } */
+
+  .class-1:hover{
+    background-color: #85c5e5;
+  }
+  .class-2:hover{
+      background-color: rgb(225, 141, 110);
+  }
+
+  .class-3:hover{
+    background-color: #85c5e5;
+}
